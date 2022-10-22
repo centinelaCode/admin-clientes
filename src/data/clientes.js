@@ -32,3 +32,21 @@ export async function addCliente(data) {
     console.log(error)
   }
 }
+
+
+export async function updateCliente(id, data) {
+  try {
+    const url = `${import.meta.env.VITE_API_URL}/${id}`;
+    const respuesta = await fetch(url, {
+      method: 'PUT',
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    
+    await respuesta.json()
+  } catch (error) {
+    console.log(error)
+  }
+}
