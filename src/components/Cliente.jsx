@@ -2,10 +2,8 @@ import { useNavigate, Form, redirect } from 'react-router-dom'
 import { deleteCliente } from '../data/clientes';
 
 export async function action({params}) {
-
   await deleteCliente(params.clienteId);
   return redirect('/');
-
 }
 
 

@@ -3,9 +3,7 @@ import Cliente from '../components/Cliente';
 import { getClientes } from '../data/clientes';
 
 export function loader() {
-  /* 
-    Este loader como un tipo useEffect pero de react-router-dom,   
-  */    
+  /* Este loader como un tipo useEffect pero de react-router-dom */    
   const clientes = getClientes();
   return clientes;
 }

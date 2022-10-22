@@ -9,33 +9,12 @@
       "id": 1
     },
     {
-      "nombre": "Karen",
-      "empresa": "Codigo Con Juan",
+      "nombre": "Karen xxxxx",
+      "empresa": "Codigo Con Juan xxxxx",
       "email": "karen_nuevo_email@juan.com",
-      "telefono": "138198313",
-      "notas": "kareb desea una rest API",
+      "telefono": "138198313 000000",
+      "notas": "kareb desea una rest API xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
       "id": 2
-    },
-    {
-      "id": 3,
-      "nombre": "Josue",
-      "telefono": 31983913,
-      "email": "josue@juan.com",
-      "empresa": "Codigo Con Juan"
-    },
-    {
-      "id": 4,
-      "nombre": "Miguel",
-      "telefono": 319381983,
-      "email": "miguel@juan.com",
-      "empresa": "Codigo Con Juan"
-    },
-    {
-      "id": 5,
-      "nombre": "Pedro",
-      "telefono": 1398198938,
-      "email": "pedro@juan.com",
-      "empresa": "Codigo Con Juan"
     },
     {
       "nombre": "Raul",
