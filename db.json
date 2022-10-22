@@ -1,18 +1,20 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Juan",
-      "telefono": 102013313,
+      "nombre": "Juan (actualizado)",
+      "empresa": "Codigo Con Juan",
       "email": "juan@juan.com",
-      "empresa": "Codigo Con Juan"
+      "telefono": "102013313",
+      "notas": "Nueva Nota",
+      "id": 1
     },
     {
-      "id": 2,
       "nombre": "Karen",
-      "telefono": 138198313,
-      "email": "karen@juan.com",
-      "empresa": "Codigo Con Juan"
+      "empresa": "Codigo Con Juan",
+      "email": "karen_nuevo_email@juan.com",
+      "telefono": "138198313",
+      "notas": "kareb desea una rest API",
+      "id": 2
     },
     {
       "id": 3,
@@ -42,6 +44,14 @@
       "telefono": "9762346712",
       "notas": "Falla en el servicio",
       "id": 6
+    },
+    {
+      "nombre": "Chanchito Feliz",
+      "empresa": "Happy Land",
+      "email": "feliz@happy.com",
+      "telefono": "1120205211",
+      "notas": "Very much happy",
+      "id": 7
     }
   ]
 }
